@@ -1,6 +1,9 @@
 @import "./inter.css";
 
 /* purgecss start ignore */
+#__next {
+  @apply h-full;
+}
 @tailwind base;
 @tailwind components;
 /* purgecss end ignore */
